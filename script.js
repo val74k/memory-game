@@ -46,7 +46,7 @@ window.onload = function()
 
 
 function returnToHome() {
-  window.location.href = "./main.html";
+  window.location.href = "./";
 }
 
 function getURLParams()
