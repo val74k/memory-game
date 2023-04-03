@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Memory - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./script-home.js"></script>
+</head>
+<body>
+  <div class="blob_wrapper">
+    <div id="blob"></div>
+    <div id="blob-blur"></div>
+  </div>
+
+  <h1>MEMORY GAME</h1>
+  <div class="center">
+  <button class="play-button" id="play-button" type="button">PLAY !</button>
+  <div> theme :
+    <select id="selected-theme" onChange="updateTheme()">
+       <option value="base">default</option>
+       <option value="minecraft">Minecraft</option>
+       <option value="porsche">Porsche</option>
+       <option value="cars">Cars</option>
+       <option value="meme">Memes</option>
+       <option value="gif">Gifs</option>
+       <option value="uno">Uno</option>
+    </select>
+  </div>
+  <div> Size :
+  <select id="size-selection" onChange = "updateSize()">
+
+
+  </select>
+</div>
+  </div>
+</body>
+</html>
